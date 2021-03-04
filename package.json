@@ -1,0 +1,23 @@
+{
+  "name": "with-tailwindcss",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "alasql": "^0.7.0",
+    "autoprefixer": "^10.1.0",
+    "next": "^10.0.3",
+    "postcss": "^8.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "postcss-flexbugs-fixes": "4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^2.0.1"
+  },
+  "license": "MIT"
+}
