@@ -1,0 +1,15 @@
+{
+  "header": {
+    "__component": "headers.header-1",
+    "collections": {
+      "primary-menu-item": {}
+    },
+    "config": {
+      "cta1Url": "/contact",
+      "cta1Label": "Get started"
+    }
+  },
+  "footer": {
+    "__component": "footers.footer-1"
+  }
+}

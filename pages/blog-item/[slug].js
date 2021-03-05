@@ -28,10 +28,18 @@ const Page = ({ blogPostItem, blogPostData, router }) => {
   if (!router.isFallback && !blogPostItem) {
     return <ErrorPage statusCode={404} />;
   }
+  const seo = {
+    metaTitle: blogPostItem.title,
+    metaDescription: blogPostItem.description,
+    shareImage: blogPostItem.image,
+    article: true
+  };
+
   return (
     <>
       <Head>
-        <title>{blogPostItem.title}</title>
+        {/* <title>{blogPostItem.title}</title> */}
+        {/* <Meta seo={seo} /> */}
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=UA-134715104-1"

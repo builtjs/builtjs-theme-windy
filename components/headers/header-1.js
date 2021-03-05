@@ -6,6 +6,7 @@ export default function Header1({ content }) {
     PRIMARY_MENU_ITEM: "primary-menu-item",
   };
   let menuItems;
+  console.log({content})
   if(content.collections[collectionNames.PRIMARY_MENU_ITEM]){
     menuItems = content.collections[collectionNames.PRIMARY_MENU_ITEM].entries;
   }

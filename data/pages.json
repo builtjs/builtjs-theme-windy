@@ -30,7 +30,14 @@
         {
           "__component": "footers.footer-1"
         }
-      ]
+      ],
+      "seo": {
+        "title": "Home",
+        "description": "",
+        "shareImage": null,
+        "twitterCardType": "summary",
+        "twitterUsername": ""
+      }
     },
     {
       "id": 2,
@@ -43,9 +50,21 @@
       "id": 3,
       "slug": "blog",
       "shortName": "Blog",
-      "sections": [],
-      "collections": {
-        "blog-item": {}
+      "sections": [{
+        "__component": "preview-heros.preview-hero-1",
+        "collections": {
+          "blog-item": {
+            "config": {
+              "limit": 1
+            }}
+        }
+      }],
+      "seo": {
+        "title": "Blog",
+        "description": "",
+        "shareImage": null,
+        "twitterCardType": "summary",
+        "twitterUsername": ""
       }
     }
   ]
