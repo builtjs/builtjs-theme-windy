@@ -4,10 +4,11 @@ const getHTML = (content) => {
     __html: content,
   };
 };
-export default function Detail1({ entry }) {
+export default function Article1({ entry }) {
   return (
     <>
-      <div className="max-w-5xl px-4 pt-32 pb-24 mx-auto">
+      <article className="max-w-5xl px-4 pt-32 pb-24 mx-auto">
+        <h1 className="remove-me">Article</h1>
         <header>
           <div className="flex mb-5">
             <p className="text-gray-600">
@@ -44,7 +45,7 @@ export default function Detail1({ entry }) {
           src="https://source.unsplash.com/Of_m3hMsoAA/1000x500"
         />
         <div className="max-w-2xl mx-auto" dangerouslySetInnerHTML={getHTML(entry.content)}></div>
-      </div>
+      </article>
       <hr className="max-w-5xl mx-auto" />
     </>
   );

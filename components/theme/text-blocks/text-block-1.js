@@ -1,6 +1,7 @@
 export default function TextBlock1() {
   return (
-    <section className="text-block-1">
+    <section>
+      <h1 className="remove-me">Text block 1</h1>
       <div className="max-w-screen-xl px-4 py-20 mx-auto">
         <h1 className="max-w-3xl mx-auto mb-12 text-5xl font-bold leading-none text-gray-900 md:text-center lg:mb-16">
           Turpis in eu mi bibendum neque egestas congue

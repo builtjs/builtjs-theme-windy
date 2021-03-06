@@ -2,7 +2,8 @@ import Form1 from "../partials/form-1";
 
 export default function ContactForm1() {
   return (
-    <section id="contact-section" className="contact-form-1">
+    <section>
+      <h1 className="remove-me">Contact form 1</h1>
       <div className="px-4 py-24 bg-gray-50">
         <div className="max-w-2xl mx-auto mb-10">
           <h2 className="mb-5 text-4xl font-bold leading-none text-center text-gray-900 md:text-5xl">

@@ -11,6 +11,7 @@ const navlinks = [
 export default function Footer1() {
   return (
     <footer>
+      <h1 className="remove-me">Footer 1</h1>
       <section className="px-5 pt-12 pb-8 bg-gray-800">
         <ul className="flex flex-wrap items-center justify-center mb-10">
           {navlinks.map(({ href, label }) => (

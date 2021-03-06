@@ -2,7 +2,8 @@ import Link from "next/link";
 
 export default function Banner1() {
   return (
-    <section className="banner-1">
+    <section>
+      <h1 className="remove-me">Banner 1</h1>
       <div className="max-w-5xl px-4 mx-auto">
         <div className="px-10 py-20 bg-gray-700">
           <div className="max-w-2xl mx-auto text-center">

@@ -2,7 +2,8 @@ import Link from "next/link";
 
 export default function TextBlock2() {
   return (
-    <section className="text-block-2">
+    <section>
+      <h1 className="remove-me">Text block 2</h1>
       <div className="max-w-screen-xl px-4 py-20 mx-auto">
         <div class="flex flex-col md:flex-row">
           <div class="flex-1 md:px-4">

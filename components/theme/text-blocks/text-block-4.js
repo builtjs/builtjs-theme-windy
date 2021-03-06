@@ -2,7 +2,8 @@ import Link from "next/link";
 
 export default function TextBlock4() {
   return (
-    <section className="text-block-4">
+    <section>
+      <h1 className="remove-me">Text block 4</h1>
       <div className="max-w-2xl px-4 py-20 mx-auto">
         <h1 className="mb-8 font-bold leading-none text-gray-900 text-7xl lg:text-8xl">
           Lorem ipsum dolor sit amet

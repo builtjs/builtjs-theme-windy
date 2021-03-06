@@ -15,6 +15,7 @@ export default function Header1({ content }) {
 
   return (
     <header>
+      <h1 className="remove-me">Header 1</h1>
       <section className="bg-white shadow-sm">
         <nav className="flex flex-wrap items-center justify-between p-4 shadow-lg md:shadow-none">
           <div className="flex items-center cursor-pointer xl:mr-12">

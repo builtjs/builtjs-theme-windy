@@ -1,52 +1,30 @@
 {
   "sections": [
     {
-      "_id": "603c20588a8ddf0014db55da",
-      "order": 2,
-      "templates": ["603c20588a8ddf0014db55ca"],
-      "displayName": "Main landing",
-      "name": "mainLanding",
+      "slug": "header-1",
+      "templates": ["header-1"],
+      "defaultTemplate": "header-1"
+    },
+    {
+      "slug": "footer-1",
+      "templates": ["footer-1"],
+      "defaultTemplate": "footer-1"
+    },
+    {
       "slug": "main-landing",
-      "description": "Landing section of Home page",
-      "isDetail": false,
-      "attributes": {
-        "heading": {
-            "type": "string"
-          },
-          "blurb": {
-            "type": "text"
+      "templates": ["cover-1"],
+      "defaultTemplate": "cover-1"
+    },
+    {
+      "slug": "blog-landing",
+      "templates": ["preview-heros.preview-hero-1"],
+      "defaultTemplate": "preview-heros.preview-hero-1",
+      "collections": {
+        "blog-item": {
+          "config": {
+            "limit": 1
           }
-      },
-      "data": {
-        "heading": "Sem nulla pharetra diam sit amet",
-        "blurb": "Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat."
-      },
-      "collections": [],
-      "content": {
-        "component": {
-          "heading": {
-            "type": "string"
-          },
-          "blurb": {
-            "type": "text"
-          }
-        },
-        "data": {
-          "heading": "Sem nulla pharetra diam sit amet",
-          "blurb": "Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat."
-        },
-        "config": {
-          "cta1Href": "#",
-          "cta1Label": "Lorem ipsum",
-          "cta2Href": "#",
-          "cta2Label": "Nunc faucibus"
         }
-      },
-      "config": {
-        "cta1Href": "/contact",
-        "cta1Label": "Get a quote",
-        "cta2Href": "/services",
-        "cta2Label": "Our services"
       }
     }
   ]

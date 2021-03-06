@@ -2,19 +2,19 @@
   "entries": [
     {
       "label": "Covers",
-      "url": "/covers"
+      "url": "/templates/covers"
     },
     {
       "label": "Banners",
-      "url": "/banners"
+      "url": "/templates/banners"
     },
     {
       "label": "Text Blocks",
-      "url": "/text-blocks"
+      "url": "/templates/text-blocks"
     },
     {
       "label": "Cards",
-      "url": "/cards"
+      "url": "/templates/cards"
     }
   ]
 }

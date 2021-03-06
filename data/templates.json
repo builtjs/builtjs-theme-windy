@@ -1,43 +1,26 @@
 {
-  "collections": [
+  "templates": [
     {
-      "singularDisplayName": "Feature Item",
-      "pluralDisplayName": "Feature Items",
-      "slug": "feature-item",
-      "modelSettings": {
-        "kind": "collectionType",
-        "collectionName": "feature_items",
-        "info": {
-          "name": "Feature Item",
-          "description": ""
-        },
-        "options": {
-          "increments": true,
-          "timestamps": true,
-          "draftAndPublish": true
-        },
-        "attributes": {
-          "title": {
-            "type": "string",
-            "unique": true,
-            "required": true
-          },
-          "slug": {
-            "type": "uid",
-            "targetField": "title",
-            "required": true
-          },
-          "blurb": {
-            "type": "text"
-          },
-          "image": {
-            "model": "file",
-            "via": "related",
-            "allowedTypes": ["images"],
-            "plugin": "upload",
-            "required": false
-          }
-        }
+      "slug": "header-1",
+      "__component": "headers.header-1",
+      "collections": {
+        "primary-menu-item": {}
+      },
+      "config": {
+        "cta1Url": "/contact",
+        "cta1Label": "Get started"
+      }
+    },
+    {
+      "slug": "cover-1",
+      "__component": "covers.cover-1",
+      "heading": "Sem nulla pharetra diam sit amet",
+      "blurb": "Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat.",
+      "config": {
+        "cta1Url": "/contact",
+        "cta1Label": "Get a quote",
+        "cta2Url": "/services",
+        "cta2Label": "Our services"
       }
     }
   ]

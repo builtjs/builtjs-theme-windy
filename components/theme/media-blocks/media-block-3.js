@@ -1,6 +1,7 @@
 export default function MediaBlock3() {
   return (
-    <section className="media-block-3">
+    <section>
+      <h1 className="remove-me">Media block 3</h1>
       <div className="max-w-screen-xl px-4 py-32 mx-auto">
         <h1 className="max-w-3xl mx-auto mb-12 text-5xl font-bold leading-none text-center text-gray-900 lg:mb-28">
           Turpis in eu mi bibendum neque egestas congue

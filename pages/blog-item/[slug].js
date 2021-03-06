@@ -1,26 +1,13 @@
 import React from "react";
-import { useRouter } from "next/router";
 import ErrorPage from "next/error";
 import Head from "next/head";
 import { withRouter } from "next/router";
 import { fetchEntry, fetchEntries } from "../../lib/fetch";
 import { contentTypeSlugs } from "../../lib/constants";
 
-import Detail1 from "./../../components/details/detail-1";
+import Article1 from "../../components/theme/articles/article-1";
 
 const contentTypeSlug = contentTypeSlugs.BLOG;
-
-// import PreviewGrid1 from "./../../components/preview-grid-1";
-const analyticsScriptTag = () => {
-  return {
-    __html: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-XXXXXXX-X');
-      `,
-  };
-};
 
 const Page = ({ blogPostItem, blogPostData, router }) => {
   if (!blogPostItem) return null;
@@ -47,7 +34,7 @@ const Page = ({ blogPostItem, blogPostData, router }) => {
         <script dangerouslySetInnerHTML={analyticsScriptTag()} />
       </Head>
       <main>
-        <Detail1 entry={blogPostItem} />
+        <Article1 entry={blogPostItem} />
         {/* <PreviewGrid1 listData={blogPostData} /> */}
       </main>
     </>

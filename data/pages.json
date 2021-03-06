@@ -1,71 +1,38 @@
 {
-  "pages": [
-    {
-      "id": 1,
-      "slug": "home",
-      "shortName": "Home",
-      "status": "published",
-      "sections": [
-        {
-          "__component": "headers.header-1",
-          "collections": {
-            "primary-menu-item": {}
-          },
-          "config": {
-            "cta1Url": "/contact",
-            "cta1Label": "Get started"
-          }
-        },
-        {
-          "__component": "covers.cover-1",
-          "heading": "Sem nulla pharetra diam sit amet",
-          "blurb": "Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat.",
-          "config": {
-            "cta1Url": "/contact",
-            "cta1Label": "Get a quote",
-            "cta2Url": "/services",
-            "cta2Label": "Our services"
-          }
-        },
-        {
-          "__component": "footers.footer-1"
+    "pages": [
+      {
+        "id": 1,
+        "slug": "home",
+        "shortName": "Home",
+        "status": "published",
+        "sections": ["main-landing"],
+        "seo": {
+          "title": "Home",
+          "description": "",
+          "shareImage": null,
+          "twitterCardType": "summary",
+          "twitterUsername": ""
         }
-      ],
-      "seo": {
-        "title": "Home",
-        "description": "",
-        "shareImage": null,
-        "twitterCardType": "summary",
-        "twitterUsername": ""
-      }
-    },
-    {
-      "id": 2,
-      "slug": "services",
-      "shortName": "Services",
-      "status": "published",
-      "sections": []
-    },
-    {
-      "id": 3,
-      "slug": "blog",
-      "shortName": "Blog",
-      "sections": [{
-        "__component": "preview-heros.preview-hero-1",
-        "collections": {
-          "blog-item": {
-            "config": {
-              "limit": 1
-            }}
+      },
+      {
+        "id": 2,
+        "slug": "services",
+        "shortName": "Services",
+        "status": "published"
+      },
+      {
+        "id": 3,
+        "slug": "blog",
+        "shortName": "Blog",
+        "sections": ["blog-landing"],
+        "seo": {
+          "title": "Blog",
+          "description": "",
+          "shareImage": null,
+          "twitterCardType": "summary",
+          "twitterUsername": ""
         }
-      }],
-      "seo": {
-        "title": "Blog",
-        "description": "",
-        "shareImage": null,
-        "twitterCardType": "summary",
-        "twitterUsername": ""
       }
-    }
-  ]
-}
+    ]
+  }
+  

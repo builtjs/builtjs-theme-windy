@@ -2,7 +2,8 @@ import Link from "next/link";
 
 export default function Cards3() {
   return (
-    <section className="cards-3">
+    <section>
+      <h1 className="remove-me">Cards 3</h1>
       <div className="max-w-screen-xl px-4 py-16 mx-auto md:py-24 xl:py-32">
         <div class="flex flex-col lg:flex-row">
           <div class="flex flex-col flex-1 shadow-xl p-8">

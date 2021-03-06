@@ -1,6 +1,7 @@
 export default function Form1() {
   return (
-    <section id="form-partial" className="form-1">
+    <section>
+      <h1 className="remove-me">Form 1</h1>
       <form action="#" method="POST">
         <div className="mb-6">
           <label className="block text-sm leading-5 text-gray-700">

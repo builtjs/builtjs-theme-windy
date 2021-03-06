@@ -1,6 +1,7 @@
 export default function MediaCover2() {
   return (
-    <section id="services-landing" className="media-cover-2">
+    <section>
+      <h1 className="remove-me">Media cover 2</h1>
       <div className="relative px-4 py-32 bg-gray-100 services-bg-image">
         <div className="relative z-10 max-w-3xl mx-auto text-center">
           <p className="mb-3 text-sm tracking-widest text-blue-400 uppercase">

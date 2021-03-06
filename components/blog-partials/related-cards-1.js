@@ -2,7 +2,8 @@ import Link from "next/link";
 
 export default function RelatedPosts() {
   return (
-    <article id="related-posts" className="max-w-5xl mx-auto my-32">
+    <article className="max-w-5xl mx-auto my-32">
+      <h1 className="remove-me">Related cards 1</h1>
       <div className="grid grid-cols-1 mb-32 gap-y-12 gap-x-12 md:grid-cols-2">
         <div>
           <Link href="/blog/post-2">

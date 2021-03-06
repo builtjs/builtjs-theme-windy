@@ -2,7 +2,8 @@ import Link from "next/link";
 
 export default function MediaBanner1() {
   return (
-    <section id="company-teaser" className="media-banner-1">
+    <section>
+      <h1 className="remove-me">Media banner 1</h1>
       <div className="max-w-screen-xl px-4 py-24 xl:mx-auto lg:py-32">
         <div className="flex flex-col items-center md:flex-row">
           <div className="relative flex-1 mb-10 lg:mb-0">

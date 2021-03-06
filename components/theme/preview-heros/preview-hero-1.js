@@ -15,6 +15,7 @@ export default function PreviewHero1({ content }) {
 
   return (
     <article>
+      <h1 className="remove-me">Preview hero 1</h1>
       <div className="max-w-screen-xl px-4 mx-auto">
         {heroPost && (
           <div className="flex flex-col pt-20 pb-24 xl:pt-28 lg:flex-row-reverse">

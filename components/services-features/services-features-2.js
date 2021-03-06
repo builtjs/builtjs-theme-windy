@@ -1,6 +1,7 @@
 export default function ServicesFeaturesComp2() {
   return (
-    <section className="media-cards-1">
+    <section>
+      <h1 className="remove-me">Service features 2</h1>
       <div className="max-w-screen-xl px-4 py-16 mx-auto md:py-24 xl:py-32">
         <h1 className="max-w-2xl mx-auto mb-12 text-4xl font-bold leading-none text-center text-gray-900 lg:mb-28">
           Turpis in eu mi bibendum neque egestas congue

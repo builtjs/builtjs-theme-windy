@@ -2,7 +2,8 @@ import Link from "next/link";
 
 export default function Details1() {
   return (
-    <section id="details-partial" className="details-1">
+    <section>
+      <h1 className="remove-me">Details 1</h1>
       <div className="flex items-center">
         <div className="w-10 border border-blue-300 mr-3 mb-3"></div>
         <p className="text-blue-400 uppercase tracking-widest text-sm mb-3">

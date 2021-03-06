@@ -1,6 +1,7 @@
 export default function TextBlock3() {
   return (
-    <section className="text-block-3">
+    <section>
+      <h1 className="remove-me">Text block 3</h1>
       <div className="max-w-screen-xl px-4 py-20 mx-auto">
         <div class="flex flex-col lg:flex-row">
           <div class="flex-1 lg:px-4">

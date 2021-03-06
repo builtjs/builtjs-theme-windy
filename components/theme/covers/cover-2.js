@@ -3,6 +3,7 @@ import Link from "next/link";
 export default function Cover2() {
   return (
     <article className="cover-2">
+      <h1 className="remove-me">Cover 2</h1>
       <div className="px-4 py-20 lg:py-32 xl:py-48">
         <div className="max-w-4xl mx-auto text-center">
           <p className="mb-3 text-sm tracking-widest text-gray-400 uppercase">

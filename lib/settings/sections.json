@@ -1,0 +1,53 @@
+{
+  "sections": [
+    {
+      "_id": "603c20588a8ddf0014db55da",
+      "order": 2,
+      "templates": ["603c20588a8ddf0014db55ca"],
+      "displayName": "Main landing",
+      "name": "mainLanding",
+      "slug": "main-landing",
+      "description": "Landing section of Home page",
+      "isDetail": false,
+      "attributes": {
+        "heading": {
+            "type": "string"
+          },
+          "blurb": {
+            "type": "text"
+          }
+      },
+      "data": {
+        "heading": "Sem nulla pharetra diam sit amet",
+        "blurb": "Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat."
+      },
+      "collections": [],
+      "content": {
+        "component": {
+          "heading": {
+            "type": "string"
+          },
+          "blurb": {
+            "type": "text"
+          }
+        },
+        "data": {
+          "heading": "Sem nulla pharetra diam sit amet",
+          "blurb": "Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat."
+        },
+        "config": {
+          "cta1Href": "#",
+          "cta1Label": "Lorem ipsum",
+          "cta2Href": "#",
+          "cta2Label": "Nunc faucibus"
+        }
+      },
+      "config": {
+        "cta1Href": "/contact",
+        "cta1Label": "Get a quote",
+        "cta2Href": "/services",
+        "cta2Label": "Our services"
+      }
+    }
+  ]
+}

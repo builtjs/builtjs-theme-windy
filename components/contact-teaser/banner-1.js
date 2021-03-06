@@ -3,6 +3,7 @@ import Link from "next/link";
 export default function Banner1() {
   return (
     <section id="contact-teaser" className="banner-1">
+      <h1 className="remove-me">Banner 1</h1>
       <div className="px-4 py-20 bg-gray-50">
         <div className="max-w-2xl mx-auto text-center">
           <p className="mb-3 text-sm tracking-widest text-blue-400 uppercase">

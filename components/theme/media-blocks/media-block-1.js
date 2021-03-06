@@ -2,7 +2,8 @@ import Link from "next/link";
 
 export default function MediaBlock1() {
   return (
-    <section className="media-block-1">
+    <section>
+      <h1 className="remove-me">Media block 1</h1>
       <div className="max-w-screen-xl px-4 py-24 xl:mx-auto">
         <div className="flex flex-col lg:flex-row">
           <div className="flex-1">

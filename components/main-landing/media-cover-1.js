@@ -2,7 +2,8 @@ import Link from "next/link";
 
 export default function MediaCover1() {
   return (
-    <section id="main-landing" className="media-cover-1">
+    <section>
+      <h1 className="remove-me">Media Cover 1</h1>
       <div className="overflow-hidden bg-gray-50 lg:py-36">
         <div className="relative flex flex-col lg:flex-row">
           <div className="relative z-20 flex-1 mb-12 lg:order-1 lg:mb-0 lg:mr-20">
