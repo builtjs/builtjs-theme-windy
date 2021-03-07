@@ -1,7 +1,7 @@
 import TemplatesLayout from "../../components/layouts/templates-layout";
-import MediaBlock1 from "../../components/theme/media-blocks/media-block-1";
-import MediaBlock2 from "../../components/theme/media-blocks/media-block-2";
-import MediaBlock3 from "../../components/theme/media-blocks/media-block-3";
+import MediaBlock1 from "../../components/templates/media-blocks/media-block-1";
+import MediaBlock2 from "../../components/templates/media-blocks/media-block-2";
+import MediaBlock3 from "../../components/templates/media-blocks/media-block-3";
 
 export default function Cards() {
   return (

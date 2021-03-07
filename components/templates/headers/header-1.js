@@ -1,14 +1,15 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-export default function Header1({ content }) {
+export default function Header1({ template }) {
   const collectionNames = {
     PRIMARY_MENU_ITEM: "primary-menu-item",
   };
+  let content = template.content;
   let menuItems;
   console.log({content})
-  if(content.collections[collectionNames.PRIMARY_MENU_ITEM]){
-    menuItems = content.collections[collectionNames.PRIMARY_MENU_ITEM].entries;
+  if(template.collections[collectionNames.PRIMARY_MENU_ITEM]){
+    menuItems = template.collections[collectionNames.PRIMARY_MENU_ITEM].entries;
   }
   const router = useRouter();
   const [navbarOpen, setNavbarOpen] = React.useState(false);

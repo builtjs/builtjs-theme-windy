@@ -5,7 +5,7 @@ import { withRouter } from "next/router";
 import { fetchEntry, fetchEntries } from "../../lib/fetch";
 import { contentTypeSlugs } from "../../lib/constants";
 
-import Article1 from "../../components/theme/articles/article-1";
+import Article1 from "../../components/templates/articles/article-1";
 
 const contentTypeSlug = contentTypeSlugs.BLOG;
 

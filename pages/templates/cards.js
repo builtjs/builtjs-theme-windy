@@ -1,9 +1,9 @@
 import TemplatesLayout from "../../components/layouts/templates-layout";
-import Cards1 from "../../components/theme/cards/cards-1";
-import Cards2 from "../../components/theme/cards/cards-2";
-import Cards3 from "../../components/theme/cards/cards-3";
-import Cards4 from "../../components/theme/cards/cards-4";
-import Cards5 from "../../components/theme/cards/cards-5";
+import Cards1 from "../../components/templates/cards/cards-1";
+import Cards2 from "../../components/templates/cards/cards-2";
+import Cards3 from "../../components/templates/cards/cards-3";
+import Cards4 from "../../components/templates/cards/cards-4";
+import Cards5 from "../../components/templates/cards/cards-5";
 
 export default function Cards() {
   return (

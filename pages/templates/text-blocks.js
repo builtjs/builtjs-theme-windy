@@ -1,9 +1,9 @@
 import TemplatesLayout from "../../components/layouts/templates-layout";
-import TextBlock1 from "../../components/theme/text-blocks/text-block-1";
-import TextBlock2 from "../../components/theme/text-blocks/text-block-2";
-import TextBlock3 from "../../components/theme/text-blocks/text-block-3";
-import TextBlock4 from "../../components/theme/text-blocks/text-block-4";
-import TextBlock5 from "../../components/theme/text-blocks/text-block-5";
+import TextBlock1 from "../../components/templates/text-blocks/text-block-1";
+import TextBlock2 from "../../components/templates/text-blocks/text-block-2";
+import TextBlock3 from "../../components/templates/text-blocks/text-block-3";
+import TextBlock4 from "../../components/templates/text-blocks/text-block-4";
+import TextBlock5 from "../../components/templates/text-blocks/text-block-5";
 
 export default function IndexPage() {
   return (

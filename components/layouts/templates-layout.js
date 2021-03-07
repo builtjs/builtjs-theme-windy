@@ -1,5 +1,5 @@
-import Header1 from "../../components/theme/headers/header-1";
-import Footer1 from "../../components/theme/footers/footer-1";
+import Header1 from "../../components/templates/headers/header-1";
+import Footer1 from "../../components/templates/footers/footer-1";
 import { header } from "../../data/layout.json";
 import { fetchCollections } from "../../lib/fetch";
 
