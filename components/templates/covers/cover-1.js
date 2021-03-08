@@ -1,6 +1,7 @@
 import Link from "next/link";
 
-export default function Cover1({ content }) {
+export default function Cover1({ template }) {
+  let content = template.content;
   return (
     <section id="main-landing" className="media-cover-1">
       <h1 className="remove-me">Cover 1</h1>

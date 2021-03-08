@@ -7,7 +7,6 @@ export default function Header1({ template }) {
   };
   let content = template.content;
   let menuItems;
-  console.log({content})
   if(template.collections[collectionNames.PRIMARY_MENU_ITEM]){
     menuItems = template.collections[collectionNames.PRIMARY_MENU_ITEM].entries;
   }
