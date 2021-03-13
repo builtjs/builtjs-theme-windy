@@ -1,0 +1,56 @@
+{
+  "pagesSections": [
+    {
+      "page": {
+        "slug": "home"
+      },
+      "sections": [
+        {
+          "slug": "main-landing",
+          "template": {
+            "slug": "cover-1"
+          }
+        }
+      ]
+    },
+    {
+      "page": {
+        "slug": "blog"
+      },
+      "sections": [
+        {
+          "slug": "blog-landing",
+          "template": {
+            "slug": "preview-cover-1"
+          }
+        }
+      ]
+    },
+    {
+      "page": {
+        "slug": "blog-article"
+      },
+      "sections": [
+        {
+          "slug": "blog-article",
+          "template": {
+            "slug": "article-1"
+          }
+        }
+      ]
+    },
+    {
+      "page": {
+        "slug": "covers"
+      },
+      "sections": [
+        {
+          "slug": "main-landing",
+          "template": {
+            "slug": "cover-1"
+          }
+        }
+      ]
+    }
+  ]
+}

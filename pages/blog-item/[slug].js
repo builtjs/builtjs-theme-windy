@@ -1,7 +1,7 @@
 import { withRouter } from "next/router";
-import Page from "../../lib/page";
+import Page from "../../config/page";
 import { fetchPage, fetchItems } from "../../lib/fetch";
-import { pages, contentTypes } from "../../lib/constants";
+import { pages, contentTypes } from "../../config/constants";
 
 export default withRouter(Page);
 

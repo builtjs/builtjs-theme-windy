@@ -9,7 +9,7 @@ export default function Article1({ template }) {
   return (
     <>
       <article className="max-w-5xl px-4 pt-32 pb-24 mx-auto">
-        <h1 className="remove-me">Article</h1>
+        <h1 className="remove-me">Article 1</h1>
         <header>
           <div className="flex mb-5">
             <p className="text-gray-600">

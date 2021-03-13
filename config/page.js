@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { transformPage } from "./transform-page";
+import { transformPage } from "../lib/transform-page";
 import PageLayout from "../components/layouts/page-layout";
 import Seo from "../components/templates/heads/seo";
 import Analytics from "../components/templates/heads/analytics";
