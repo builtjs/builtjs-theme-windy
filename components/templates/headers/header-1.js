@@ -8,7 +8,7 @@ export default function Header1({ template }) {
   let content = template.content;
   let menuItems;
   if(template.collections[collectionNames.PRIMARY_MENU_ITEM]){
-    menuItems = template.collections[collectionNames.PRIMARY_MENU_ITEM].entries;
+    menuItems = template.collections[collectionNames.PRIMARY_MENU_ITEM].items;
   }
   const router = useRouter();
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -40,7 +40,7 @@ export default function Header1({ template }) {
               </a>
             </Link>
             <Link href="/">
-              <a className="text-xl font-bold text-gray-800">ACME</a>
+              <a className="text-xl font-bold text-gray-800">WINDY</a>
             </Link>
           </div>
 

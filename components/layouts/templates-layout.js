@@ -5,7 +5,6 @@ import { fetchCollections } from "../../lib/fetch";
 
 const TemplatesLayout = async(props) => {
   const { children } = props;
-//   header.collections = await fetchCollections(section);
   return (
     <>
       {/* <Header1 content={header}/> */}

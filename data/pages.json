@@ -1,38 +1,66 @@
 {
-    "pages": [
-      {
-        "id": 1,
-        "slug": "home",
-        "shortName": "Home",
-        "status": "published",
-        "sections": ["main-landing"],
-        "seo": {
-          "title": "Home",
-          "description": "",
-          "shareImage": null,
-          "twitterCardType": "summary",
-          "twitterUsername": ""
-        }
-      },
-      {
-        "id": 2,
-        "slug": "services",
-        "shortName": "Services",
-        "status": "published"
-      },
-      {
-        "id": 3,
-        "slug": "blog",
-        "shortName": "Blog",
-        "sections": ["blog-landing"],
-        "seo": {
-          "title": "Blog",
-          "description": "",
-          "shareImage": null,
-          "twitterCardType": "summary",
-          "twitterUsername": ""
-        }
+  "pages": [
+    {
+      "slug": "home",
+      "shortName": "Home",
+      "status": "published",
+      "sections": ["main-landing"],
+      "seo": {
+        "title": "Home",
+        "description": "",
+        "shareImage": null,
+        "twitterCardType": "summary",
+        "twitterUsername": ""
       }
-    ]
-  }
-  
+    },
+    {
+      "slug": "services",
+      "shortName": "Services",
+      "status": "published",
+      "seo": {
+        "title": "Services",
+        "description": "",
+        "shareImage": null,
+        "twitterCardType": "summary",
+        "twitterUsername": ""
+      }
+    },
+    {
+      "slug": "blog",
+      "shortName": "Blog",
+      "sections": ["blog-landing"],
+      "seo": {
+        "title": "Blog",
+        "description": "",
+        "shareImage": null,
+        "twitterCardType": "summary",
+        "twitterUsername": ""
+      }
+    },
+    {
+      "slug": "blog-article",
+      "shortName": "Blog article",
+      "sections": ["blog-article"],
+      "seo": {
+        "title": "Blog",
+        "description": "",
+        "shareImage": null,
+        "twitterCardType": "summary",
+        "twitterUsername": ""
+      }
+    },
+    {
+      "slug": "covers",
+      "shortName": "Covers",
+      "status": "published",
+      "sections": ["main-landing-demo-1"],
+      "seo": {
+        "title": "Covers",
+        "description": "",
+        "shareImage": null,
+        "twitterCardType": "summary",
+        "twitterUsername": ""
+      }
+    }
+  ]
+}

@@ -1,17 +1,17 @@
 import Link from "next/link";
-// import { format } from "date-fns";
 
-export default function PreviewHero1({ content }) {
-  const collectionNames = {
-    BLOG_ITEM: "blog-item",
-  };
-  let entries;
-  if(content.collections[collectionNames.BLOG_ITEM]){
-    entries = content.collections[collectionNames.BLOG_ITEM].entries;
+export default function PreviewCover1({ template }) {
+  if(!template || !template.collections){
+    throw new Error('No template collections');
   }
-  // const { entries, contentTypeId } = listData;
-  const heroPost = entries[0];
-  const url = `/${collectionNames.BLOG_ITEM}/${heroPost.slug}`;
+  let collectionName = (Object.keys(template.collections))[0];
+  let collection = template.collections[collectionName];
+  let items;
+  if(collection){
+    items = collection.items;
+  }
+  const heroPost = items[0];
+  const url = `/${collectionName}/${heroPost.slug}`;
 
   return (
     <article>

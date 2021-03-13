@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 export default function Cover1({ template }) {
+  console.log({template})
   let content = template.content;
   return (
     <section id="main-landing" className="media-cover-1">
@@ -28,18 +29,17 @@ export default function Cover1({ template }) {
               <p className="mb-10 text-lg font-light leading-loose text-gray-700 xl:pr-20 lg:mb-16">
                 {content.blurb}
               </p>
-              <div className="flex flex-col items-center sm:flex-row">
-                <Link href={content.config.cta1Url}>
-                  <a className="flex items-center justify-center w-full px-6 py-3 mb-4 text-white transition duration-200 ease-in-out bg-blue-400 border border-transparent rounded-md xl:w-auto hover:bg-blue-500 hover:border-blue-500 sm:mb-0 sm:mr-2">
-                    {content.config.cta1Label}
-                  </a>
-                </Link>
-                <Link href={content.config.cta2Url}>
-                  <a className="flex items-center justify-center w-full px-6 py-3 text-gray-600 transition duration-200 ease-in-out border rounded-md bg-gray-50 border-gray-50 xl:w-auto hover:border-gray-100 hover:bg-gray-100 hover:text-gray-900 sm:ml-2">
-                    {content.config.cta2Label}
-                  </a>
-                </Link>
-              </div>
+              {content.buttons && (
+                <div className="flex flex-col items-center sm:flex-row">
+                  {content.buttons.map((button) => {
+                    <Link href={button.url}>
+                      <a className="flex items-center justify-center w-full px-6 py-3 mb-4 text-white transition duration-200 ease-in-out bg-blue-400 border border-transparent rounded-md xl:w-auto hover:bg-blue-500 hover:border-blue-500 sm:mb-0 sm:mr-2">
+                        {button.label}
+                      </a>
+                    </Link>;
+                  })}
+                </div>
+              )}
             </div>
           </div>
         </div>

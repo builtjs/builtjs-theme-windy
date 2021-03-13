@@ -17,10 +17,6 @@
             "type": "text"
           }
       },
-      "data": {
-        "heading": "Sem nulla pharetra diam sit amet",
-        "blurb": "Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat."
-      },
       "collections": [],
       "content": {
         "component": {
@@ -30,23 +26,7 @@
           "blurb": {
             "type": "text"
           }
-        },
-        "data": {
-          "heading": "Sem nulla pharetra diam sit amet",
-          "blurb": "Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat."
-        },
-        "config": {
-          "cta1Href": "#",
-          "cta1Label": "Lorem ipsum",
-          "cta2Href": "#",
-          "cta2Label": "Nunc faucibus"
         }
-      },
-      "config": {
-        "cta1Href": "/contact",
-        "cta1Label": "Get a quote",
-        "cta2Href": "/services",
-        "cta2Label": "Our services"
       }
     }
   ]

@@ -5,7 +5,7 @@ const PageLayout = (props) => {
       <style jsx global>
         {`
           .remove-me {
-            color: red;
+            color: #777;
           }
         `}
       </style>

@@ -3,7 +3,16 @@
     {
       "slug": "header-1",
       "templates": ["header-1"],
-      "defaultTemplate": "header-1"
+      "defaultTemplate": "header-1",
+      "content": {
+        "buttons": [{
+          "url": "/contact",
+          "label": "Get started"
+        }]
+      },
+      "collections": {
+        "primary-menu-item": {}
+      }
     },
     {
       "slug": "footer-1",
@@ -13,18 +22,66 @@
     {
       "slug": "main-landing",
       "templates": ["cover-1"],
-      "defaultTemplate": "cover-1"
+      "defaultTemplate": "cover-1",
+      "content": {
+        "heading": "Sem nulla pharetra diam sit amet",
+        "blurb": "Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat.",
+        "buttons": [
+          {
+            "url": "/contact",
+            "label": "Get a quote"
+          },
+          {
+            "url": "/services",
+            "label": "Our services"
+          }
+        ]
+      }
     },
     {
       "slug": "blog-landing",
-      "templates": ["preview-hero-1"],
-      "defaultTemplate": "preview-hero-1",
+      "templates": ["preview-cover-1"],
+      "defaultTemplate": "preview-cover-1",
       "collections": {
         "blog-item": {
-          "config": {
-            "limit": 1
-          }
+          "limit": 1
         }
+      }
+    },
+    {
+      "slug": "blog-list",
+      "templates": ["preview-list-1"],
+      "defaultTemplate": "preview-list-1",
+      "collections": {
+        "blog-item": {
+          "offset": 1
+        }
+      }
+    },
+    {
+      "slug": "blog-article",
+      "templates": ["article-1"],
+      "defaultTemplate": "article-1",
+      "article": {
+        "blog-item": {}
+      }
+    },{
+      "slug": "main-landing-demo-1",
+      "templates": ["cover-1"],
+      "defaultTemplate": "cover-1",
+      "content": {
+        "heading": "Sem nulla pharetra diam sit amet",
+        "blurb": "Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Cursus vitae congue mauris rhoncus. Orci sagittis eu volutpat.",
+        "buttons": [
+          {
+            "url": "/contact",
+            "label": "Get a quote"
+          },
+          {
+            "url": "/services",
+            "label": "Our services"
+          }
+        ]
       }
     }
   ]

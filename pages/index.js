@@ -1,13 +1,12 @@
 import { withRouter } from "next/router";
-import { pageIds } from "../lib/constants";
 import Page from "../lib/page";
 import { fetchPage } from "../lib/fetch";
-import model from "../lib/model";
+import { pages } from "../lib/constants";
 
 export default withRouter(Page);
 
 export async function getStaticProps() {
-  const page = await fetchPage('home');
+  const page = await fetchPage(pages.HOME);
   return {
     props: { page }
   };

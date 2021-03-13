@@ -4,7 +4,8 @@ const getHTML = (content) => {
     __html: content,
   };
 };
-export default function Article1({ entry }) {
+export default function Article1({ template }) {
+  const item = template.item;
   return (
     <>
       <article className="max-w-5xl px-4 pt-32 pb-24 mx-auto">
@@ -22,7 +23,7 @@ export default function Article1({ entry }) {
             </Link> */}
           </div>
           <h1 className="mb-12 text-6xl font-bold leading-none text-gray-900">
-            {entry.title}
+            {item.title}
           </h1>
           <div className="flex items-center">
             {/* <img
@@ -33,9 +34,9 @@ export default function Article1({ entry }) {
               className="w-12 h-12 mr-4 rounded-full"
             /> */}
             <div className="flex flex-col">
-              <p className="text-gray-700">{entry.author.displayName}</p>
+              {/* <p className="text-gray-700">{item.author.displayName}</p> */}
               <p className="text-sm text-gray-600">
-                {entry.author.position || "Writer"}
+                {/* {entry.author.position || "Writer"} */}
               </p>
             </div>
           </div>
@@ -44,7 +45,7 @@ export default function Article1({ entry }) {
           className="my-16 bg-gray-100 rounded-lg shadow-2xl"
           src="https://source.unsplash.com/Of_m3hMsoAA/1000x500"
         />
-        <div className="max-w-2xl mx-auto" dangerouslySetInnerHTML={getHTML(entry.content)}></div>
+        <div className="max-w-2xl mx-auto" dangerouslySetInnerHTML={getHTML(item.content)}></div>
       </article>
       <hr className="max-w-5xl mx-auto" />
     </>
